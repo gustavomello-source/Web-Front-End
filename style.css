@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Chinese Rocks';
+    src: url('fonts/Fonts/chinese\ rocks\ rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Silver';
+    src: url('fonts/Fonts/Silver.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 200, 97), rgb(159, 42, 172));
+}
+
+.header_image{
+    max-width: 512px;
+    max-height: 512px;
+    min-width: 256px;
+    min-height: 256px;
+}
+
+#header_title{
+    text-align: center;
+
+    font-family: 'Chinese Rocks', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+    background-color: rgba(255, 255, 255, 0.137);
+    border: 1px solid black;
+}
+
+.header_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header_item{
+    margin-right: 5px;
+    margin-top: 20px;
+
+    max-width: 70%;
+    min-width: 256px
+}
+
+#text_box{
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Silver';
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid black;
+}
