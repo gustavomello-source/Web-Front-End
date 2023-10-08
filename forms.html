@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form class="form">
+        <label for="username">Nome Completo:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="discord">Discord:</label><br>
+        <input type="text" id="discord" name="disc_id" required><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="Insira um e-mail válido" required><br>
+        <label for="options">Atividade Favorita do Projeto Lúdico:</label><br>
+            <select id="options" name="options">
+                <option value="Escape_Room">Escape Room</option>
+                <option value="RPG" selected>RPG</option>
+                <option value="Jogos_De_Tabuleiro">Jogos De Tabuleiro</option>
+            </select><br>
+            <label for="comentary">Deixe seu comentário:</label><br>
+            <textarea id="comentary" name="comentary" rows="5" cols="30" required></textarea><br>
+        <input type="submit" value="Enviar" id="submit_button">
+    </form>
+
+    <footer id="forms_footer">
+        <p>Muito obrigado pelo feedback!!</p>
+    </footer>
+</body>
+</html>

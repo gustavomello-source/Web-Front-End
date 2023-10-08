@@ -9,6 +9,19 @@
     font-weight: bold;
 }
 
+  
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: purple;
+}
+  
+a:active {
+    color: red;
+}
+
 body{
     background-image: linear-gradient(to bottom right, rgb(255, 200, 97), rgb(159, 42, 172));
 }
@@ -40,15 +53,125 @@ body{
     margin-right: 5px;
     margin-top: 20px;
 
-    max-width: 70%;
+    max-width: 90%;
     min-width: 256px
 }
 
 #text_box{
-    padding: 5px;
+    padding: 10px;
     text-align: justify;
     font-family: 'Silver';
     font-size: 32px;
     background-color: rgba(255, 255, 255, 0.247);
     border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#project_description{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    font-family: 'Silver';
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#nav_links{
+    font-family: 'Chinese Rocks';
+    padding-top: 25px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.description_container{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    font-family: 'Silver';
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);    
+}
+
+#description_image{
+    padding-top: 20px;
+}
+
+.list_title{
+    margin-top: 60px;
+    font-size: 62px;
+    font-family: 'Silver';
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.footer {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-family: 'Silver';
+    text-align: justify;
+    font-size: 72px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid black;
+}
+
+.form{
+    font-family: 'Silver';
+    font-size: 48px;
+    text-decoration: underline;
+
+}
+
+#options{
+    font-family: 'Silver';
+    font-size: 32px;
+    padding-top: 7px;
+}
+
+#email{
+    font-family: 'Silver';
+    font-size: 32px;
+}
+
+#username{
+    font-family: 'Silver';
+    font-size: 32px;
+    padding: 7px;
+}
+
+#discord_id{
+    font-family: 'Silver';
+    font-size: 32px;
+    padding: 7px;
+}
+
+#submit_button{
+    font-family: 'Silver';
+    font-size: 32px;
+    padding-top: 7px;
+}
+
+#comentary{
+    font-family: 'Silver';
+    font-size: 32px;
+}
+
+#forms_footer{
+    font-family: 'Silver';
+    font-size: 108px;
+    text-decoration: underline;
+    text-align: center;
 }
