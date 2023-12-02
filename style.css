@@ -175,3 +175,12 @@ body{
     text-decoration: underline;
     text-align: center;
 }
+
+#data_list{
+    list-style-type: none;
+    font-family: 'Silver';
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid black;
+    padding-left: 10px;
+}
